@@ -3,6 +3,18 @@ package main
 import "fmt"
 
 func main()  {
+	// s := "Hello沙河"
+	// // len()求得是byte字节的数量
+	// n := len(s) //求字符串s的长度，把长度保存到变量n中
+	// fmt.Println(n)
+
+	// // for i := 0;i < len(s); i++ {
+	// 	// fmt.Println(s[i])
+	// 	// fmt.Printf("%c\n",s[i]) //%c:字符
+	// // }
+	// for _, c := range s {//从字符串中拿出具体的字符
+	// 	fmt.Printf("%c\n", c) // %c,字符
+	// }
 	//字符串修改
 	s2 := "白萝卜"
 	s3 :=  []rune(s2) //把字符串强制转换成一个rune切片
